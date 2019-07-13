@@ -6,6 +6,12 @@
         <h4>
           <span>{{item.title}}</span>
           <!-- <small> by {{item.user.id}}</small> -->
+          <small>
+            <span>by </span>
+            <nuxt-link :to="`/users/${item.user.id}`">
+              {{item.user.id}}
+            </nuxt-link>
+          </small>
         </h4>
         <div class="">
           {{ item.body.slice(0, 130) }}

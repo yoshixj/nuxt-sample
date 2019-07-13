@@ -5,3 +5,5 @@ SSRのための関数
 asyncData 関数
 - Nuxt.jsが独自に実装したSSRのための関数
 - Vue コンポーネントのdata関数の拡張
+
+nuxt linkで変数を入れない場合は、symbol to を使わない
