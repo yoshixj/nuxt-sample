@@ -1,0 +1,7 @@
+nuxtはroiutingをていぎしなくても、pageがルーティングになる。
+
+SSRのための関数
+
+asyncData 関数
+- Nuxt.jsが独自に実装したSSRのための関数
+- Vue コンポーネントのdata関数の拡張

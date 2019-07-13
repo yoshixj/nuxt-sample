@@ -37,6 +37,9 @@ export default {
   */
   plugins: [
   ],
+  env: {
+    QIITA_TOKEN: process.env.QIITA_TOKEN  
+  },
   /*
   ** Nuxt.js modules
   */
