@@ -42,6 +42,7 @@ export default {
   */
   modules: [
     '@nuxtjs/vuetify',
+    '@nuxtjs/axios',
   ],
   /*
   ** vuetify module configuration
@@ -57,6 +58,9 @@ export default {
       error: colors.deepOrange.accent4,
       success: colors.green.accent3
     }
+  },
+  axios: {
+
   },
   /*
   ** Build configuration
