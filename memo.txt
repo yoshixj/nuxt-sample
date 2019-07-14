@@ -7,3 +7,6 @@ asyncData 関数
 - Vue コンポーネントのdata関数の拡張
 
 nuxt linkで変数を入れない場合は、symbol to を使わない
+
+## vuex が分からない
+https://vuex.vuejs.org/ja/
