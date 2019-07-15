@@ -10,3 +10,7 @@ nuxt linkで変数を入れない場合は、symbol to を使わない
 
 ## vuex が分からない
 https://vuex.vuejs.org/ja/
+
+commitはmutationと繋がっている
+store.commit('increment');
+みたいな感じで使う
